@@ -1,0 +1,50 @@
+@media only screen and (max-width:1150px){
+.container{
+    /* width: 100%; */
+}
+:root{
+    font-size: 50%;
+}
+}
+ @media only screen and (max-width:960px){
+    :root{
+        font-size: 38%;
+    }
+    }
+ @media only screen and (max-width:720px){
+    :root{
+        font-size: 26%;
+    }
+    body{
+    }
+   .services .container,
+   .pricing .container{
+        padding: 0 25rem;
+    }
+ @media only screen and (max-width:480px){
+    :root{
+        font-size: 19%;
+    }
+    body{
+    }
+        }
+    }
+ @media only screen and (max-width:479px){
+    :root{
+        font-size: 10%;
+    }
+    body{
+    }
+        }
+    
+
+/* @media only screen and (max-width:1200px){
+.container{
+    width: 100%;
+}
+}
+@media only screen and (max-width:1200px){
+.container{
+    width: 100%;
+}
+}  */
