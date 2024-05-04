@@ -1,0 +1,109 @@
+ @media only screen and (max-width:1200px) {
+     .secondary-header {
+         font-size: var(--fs-400);
+     }
+
+     .primary-header {
+         font-size: var(--fs-500);
+     }
+
+     .waves {
+         /* height: 100vh !important; */
+
+     }
+
+     @media only screen and (max-width:870px) {
+         .grid-3 {
+             gap: 4rem;
+         }
+
+         .hero,
+         .biography {
+             flex-direction: column;
+             text-align: center;
+             gap: 8rem;
+         }
+
+         .intro *,
+         .biography * {
+             text-align: center;
+             margin: 0 auto;
+         }
+
+         .hero img,
+         .biography img {
+             padding: 0 8rem;
+         }
+
+         .biography img {
+             order: 1;
+         }
+
+         header {
+             background-color: transparent;
+             display: flex;
+             flex-direction: column;
+         }
+
+         .logo {
+             margin-left: 0;
+             margin-right: auto;
+         }
+
+         .curves {
+             display: none;
+         }
+
+         header nav {
+             width: 100%;
+             background-color: #1A129F;
+         }
+
+         header nav ul {
+             text-align: end;
+             padding: 1rem 1rem;
+             border-radius: 1rem;
+         }
+
+         header nav ul li {
+             padding: .3rem 1.3rem;
+         }
+
+         .container.header {
+             max-width: 100%;
+             padding: 0;
+         }
+
+         .container {
+
+             max-width: 100%;
+             padding: 2rem;
+         }
+
+         header {
+             padding: 0;
+         }
+
+         header .logo {
+             padding-left: 1rem;
+         }
+     }
+
+     @media only screen and (max-width:620px) {
+
+         .hero img,
+         .biography img {
+             padding: 0 3rem;
+         }
+
+         .pricing {
+
+             padding: 0rem;
+         }
+     }
+
+     @media only screen and (max-width:479px) {}
+
+
+
+}  
