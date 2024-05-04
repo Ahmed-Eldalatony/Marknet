@@ -30,7 +30,6 @@ body {
 
 nav ul {
   list-style: none;
-  /* margin: 0; */
   padding: 0;
 }
 
@@ -90,13 +89,15 @@ header {
   z-index: -1;
 }
 
-nav li {
-  display: inline-block;
-  margin-right: 20px;
+nav ul {
+  display: flex;
+  gap: 3.6rem;
   padding: .2rem .6rem;
   font-size: var(--fs-100);
 }
-
+nav li {
+  padding: 0 .6rem;
+}
 nav li:hover {
   border-radius: 100vw;
   background-color: #7E76F9;
@@ -122,7 +123,7 @@ nav a {
   width: 100%;
 }
 .intro p {
-  width: 35ch;
+  max-width: 35ch;
   color: var(--txt-s-color);
   margin-top:  4rem ;
   margin-bottom:  2rem ;
@@ -341,8 +342,7 @@ img {
   display: flex;
   margin: 5rem auto 20rem auto;
   width: fit-content;
-  column-gap: 3rem;
-
+ gap: 2rem;
 }
 
 .inp-cont input {
@@ -436,6 +436,4 @@ img {
   background-size: cover;
   min-height: 50rem;
   padding-top: 14rem;
-}
-.footer .logo {
 }
